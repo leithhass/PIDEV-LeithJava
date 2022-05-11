@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="606.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ValidJava.gui.TournoiMainController">
+    <children>
+      <Label layoutX="260.0" layoutY="146.0" prefWidth="33.0" text="ID" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="189.0" prefHeight="35.0" prefWidth="125.0" text="Prize" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="310.0" prefHeight="35.0" prefWidth="151.0" text="Name" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tid" layoutX="435.0" layoutY="146.0" prefHeight="35.0" prefWidth="174.0" />
+      <TextField fx:id="tprize" layoutX="435.0" layoutY="189.0" prefHeight="35.0" prefWidth="174.0" />
+      <TextField fx:id="tmax" layoutX="435.0" layoutY="230.0" prefHeight="35.0" prefWidth="174.0" />
+      <Button fx:id="btnajouter" layoutX="234.0" layoutY="486.0" mnemonicParsing="false" onAction="#ajouterTournoi" prefHeight="37.0" prefWidth="125.0" text="Ajouter" underline="true" />
+      <Text fill="#c93939" fontSmoothingType="LCD" layoutX="278.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion Des Tournois" wrappingWidth="309.9541015625">
+         <font>
+            <Font name="Berlin Sans FB" size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnaffichage" layoutX="480.0" layoutY="486.0" mnemonicParsing="false" onAction="#affichage" prefHeight="37.0" prefWidth="108.0" text="Affichage" underline="true" />
+      <Text fill="#c92020" layoutX="13.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ULTICOM" wrappingWidth="90.625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="256.0" layoutY="357.0" prefHeight="35.0" prefWidth="151.0" text="Date" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="270.0" prefHeight="35.0" prefWidth="151.0" text="Lieu" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="228.0" prefHeight="40.0" prefWidth="174.0" text="Max équipes" textFill="#c93939">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tnom" layoutX="435.0" layoutY="312.0" prefHeight="35.0" prefWidth="174.0" />
+      <TextField fx:id="tlieu" layoutX="435.0" layoutY="272.0" prefHeight="35.0" prefWidth="174.0" />
+      <DatePicker fx:id="tdate" layoutX="435.0" layoutY="359.0" prefHeight="35.0" prefWidth="174.0" />
+   </children>
+</AnchorPane>

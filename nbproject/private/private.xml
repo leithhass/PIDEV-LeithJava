@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/edu/ValidJava/entities/Tournois.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>146</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/gui/AffichageTournoiController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/entities/Tournois.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/gui/AffichageequipeController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/services/TournoisCRUD.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/utils/sms.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/services/EquipeCRUD.java</file>
+            <file>file:/C:/Users/MSI/Desktop/CopieJava/Lastouallaah/src/edu/ValidJava/gui/TournoiMainController.java</file>
+        </group>
+    </open-files>
+</project-private>

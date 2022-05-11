@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="741.0" prefWidth="911.0" style="-fx-background-color: AFAFAF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ValidJava.gui.AffichageTournoiController">
+   <children>
+      <TableView fx:id="tabletournoi" layoutX="5.0" layoutY="14.0" prefHeight="540.0" prefWidth="681.0" style="-fx-background-color: FFFFFF;">
+         <columns>
+            <TableColumn fx:id="idtournoi" prefWidth="47.20001220703125" text="ID" />
+            <TableColumn fx:id="nomtournoi" prefWidth="113.0" text="Nom" />
+            <TableColumn fx:id="prizetournoi" minWidth="0.0" prefWidth="84.0" text="Prize" />
+            <TableColumn fx:id="nbequipes" prefWidth="89.0" text="Nb équipes" />
+            <TableColumn fx:id="lieut" prefWidth="135.0" text="Lieu" />
+            <TableColumn fx:id="maxt" prefWidth="74.0" text="MaxEquipes" />
+            <TableColumn fx:id="datet" prefWidth="137.0" text="Date" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnsupp" layoutX="272.0" layoutY="650.0" mnemonicParsing="false" onAction="#sup" prefHeight="65.0" prefWidth="140.0" text="Supprimer" textFill="#c63b3b">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font></Button>
+      <Button fx:id="btnmodif" layoutX="69.0" layoutY="650.0" mnemonicParsing="false" onAction="#modif" prefHeight="65.0" prefWidth="140.0" text="Modifier" textFill="#c63b3b">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font></Button>
+      <TextField fx:id="taid" layoutX="735.0" layoutY="515.0" />
+      <TextField fx:id="taprize" layoutX="735.0" layoutY="551.0" />
+      <TextField fx:id="tamax" layoutX="735.0" layoutY="589.0" />
+      <TextField fx:id="talieu" layoutX="735.0" layoutY="624.0" />
+      <Text layoutX="695.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <Text layoutX="688.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prize" />
+      <Text layoutX="660.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max_équipes" />
+      <Text layoutX="681.0" layoutY="678.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" />
+      <Button fx:id="btnpdf" layoutX="462.0" layoutY="650.0" mnemonicParsing="false" onAction="#pdf" prefHeight="65.0" prefWidth="140.0" text="PDF" textFill="#c63b3b">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tanom" layoutX="735.0" layoutY="661.0" />
+      <Text layoutX="682.0" layoutY="716.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+      <Text layoutX="690.0" layoutY="641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lieu" />
+      <DatePicker fx:id="tadate" layoutX="735.0" layoutY="699.0" prefHeight="25.0" prefWidth="149.0" />
+      <ImageView fitHeight="242.0" fitWidth="201.0" layoutX="709.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@257309695_709501186885490_2911838310171020841_n.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

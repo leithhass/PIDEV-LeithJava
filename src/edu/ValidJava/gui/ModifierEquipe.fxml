@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="edu.ValidJava.gui.ModifierEquipeController">
+   <children>
+      <Label layoutX="68.0" layoutY="98.0" text="ID:" />
+      <Label layoutX="68.0" layoutY="168.0" text="Nom Equipe" />
+      <Label layoutX="68.0" layoutY="238.0" text="Nombre Joueurs" />
+      <Label layoutX="68.0" layoutY="302.0" text="Noms Joueurs" />
+      <TextField fx:id="tfID" layoutX="245.0" layoutY="94.0" />
+      <TextField fx:id="tfNom" layoutX="245.0" layoutY="164.0" />
+      <TextField fx:id="tfNombre" layoutX="245.0" layoutY="234.0" />
+      <TextField fx:id="tfJoueurs" layoutX="245.0" layoutY="290.0" />
+      <Button fx:id="valid" layoutX="481.0" layoutY="341.0" mnemonicParsing="false" onAction="#update" text="Valider" />
+   </children>
+</AnchorPane>
